@@ -36,6 +36,9 @@ func main() {
 
 	makeSlice := make([]int, 3, 6)
 	fmt.Println("Слайс созданый make:", makeSlice)
+	newSlice := makeSlice[3:6]
+	fmt.Println(newSlice)
+
 	// task2
 	sliceEmpty = append(sliceEmpty, 13)
 	fmt.Println("Добавление в пустой слайс:", sliceEmpty)
